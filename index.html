@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Todo List</title>
+</head>
+<body>
+
+    <main>
+        <header>
+            <span>Projetos</span>
+            <h1>tabela</h1>
+            <div id="trash">
+                <i>Delete</i>
+                <i class='bx bxs-trash'></i>
+            </div>
+        </header>
+
+        <section class="columns">
+            <section class="column">
+                <h2 class="column__title">TO DO <i class="number" id="number0">0</i></h2>
+
+                <section class="column__cards" id="column-0"></section>
+            </section>
+
+            <section class="column">
+                <h2 class="column__title">IN PROGRESS <i class="number" id="number1">0</i></h2>
+
+                <section class="column__cards" id="column-1"></section>
+            </section>
+
+            <section class="column">
+                <h2 class="column__title">TO REVIEW <i class="number" id="number2">0</i></h2>
+
+                <section class="column__cards" id="column-2"></section>
+            </section>
+
+            <section class="column">
+                <h2 class="column__title">DONE <i class="number" id="number3">0</i></h2>
+
+                <section class="column__cards" id="column-3"></section>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
